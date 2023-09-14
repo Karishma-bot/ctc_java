@@ -24,6 +24,9 @@ public class division {
 		{
 			System.out.println("exception caught"+e.getMessage());
 		}
+		finally {
+			System.out.println("finally block executed");
+		}
 	}
 
 }
